@@ -8,6 +8,7 @@
   line-height: 20px;
 }
 
+/*Header page with nav links style section*/
 .header {
   display: flex;
   position: relative;
@@ -119,6 +120,7 @@
   left: 80px;
 }
 
+/*Recipe page style section*/
 .recipes {
   background-image: url(../images/background_recipes.svg);
   background-repeat: no-repeat;
