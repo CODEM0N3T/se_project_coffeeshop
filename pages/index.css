@@ -107,10 +107,10 @@
   font-weight: 500;
 }
 
-.header__paragraph:third-child {
+/* .header__paragraph:third-child {
   margin: 0;
   right: 80px;
-}
+} */
 
 .header__paragraph {
   list-style-type: none;
@@ -125,7 +125,7 @@
   background-image: url(../images/background_recipes.svg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
   box-sizing: border-box;
   background-color: #0a2750;
   font-style: normal;
