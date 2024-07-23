@@ -120,31 +120,41 @@
           <h2 class="reservation__title">Book a table</h2>
           <form action="" class="reservation__form form">
             <fieldset class="form__fieldset">
-              <label for="" class="form__label">Name *</label>
+              <label for="name" class="form__label">Name *</label>
               <input
                 type="text"
                 placeholder="Name Surname"
                 class="form__input"
+                id="name"
               />
-              <label class="form__label">Number of guests *</label>
-              <input type="number" placeholder="1-8" class="form__input" />
-              <label class="form__label">Date & time *</label>
+              <label for="number_guest" class="form__label"
+                >Number of guests *</label
+              >
+              <input
+                type="number"
+                placeholder="1-8"
+                class="form__input"
+                id="number_guest"
+              />
+              <label for="date" class="form__label">Date & time *</label>
               <input
                 type="datetime-local"
-                class="form__input form__label_date_time"
+                class="form__input form__label_date"
+                id="date"
               />
-              <label class="form__label">Your email *</label>
+              <label for="email" class="form__label">Your email *</label>
               <input
                 type="email"
                 placeholder="email@email.com"
                 class="form__input"
+                id="email"
               />
             </fieldset>
 
             <button type="submit" class="form__button">Book a table</button>
             <label class="form__label form__label_type_checkbox">
-              <input type="checkbox" class="form__checkbox" />I agree with the
-              terms of use
+              <input type="checkbox" class="form__checkbox" id="checkbox" />I
+              agree with the terms of use
             </label>
           </form>
         </section>
