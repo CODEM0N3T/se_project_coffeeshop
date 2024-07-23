@@ -268,15 +268,11 @@
   height: 60px;
   background-color: #2f80ed;
   border-color: #2f80ed;
+  opacity: 100%;
 }
 
 .form__button:hover {
-  from {
-    opacity: 100%;
-  }
-  to {
-    opacity: 70%;
-  }
+  opacity: 70%;
 }
 
 .form__checkbox {
