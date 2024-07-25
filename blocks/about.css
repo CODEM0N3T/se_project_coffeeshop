@@ -1,0 +1,75 @@
+.about {
+  background-color: #0a2850;
+  padding: 100px 80px 173px;
+  color: #fff;
+  display: flex;
+  position: relative;
+}
+
+.about__title {
+  max-width: 251px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0;
+  z-index: 2;
+}
+
+.about__content {
+  max-width: 660px;
+  gap: 20px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: auto;
+  margin-top: 19px;
+}
+
+.about__circle-container {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 426px;
+  height: 426px;
+  overflow: hidden; /* Hide overflow */
+}
+
+.about__circle {
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  background-color: #2f80ed;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+}
+
+.about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out infinite;
+  position: absolute;
+  top: auto;
+  left: auto;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(
+      1.5
+    ); /* Change 1.5 to any value larger than 1 but no larger than 2 */
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
