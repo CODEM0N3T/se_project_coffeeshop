@@ -4,6 +4,7 @@
   color: #fff;
   display: flex;
   position: relative;
+  overflow: hidden;
 }
 
 .about__title {
@@ -15,6 +16,10 @@
   line-height: 52px;
   margin: 0;
   z-index: 2;
+}
+
+.about__paragraph {
+  margin: 0 0 20px;
 }
 
 .about__content {
@@ -29,17 +34,6 @@
   margin-top: 19px;
 }
 
-.about__circle-container {
-  position: absolute;
-  padding: 0;
-  margin: 0;
-  top: 0;
-  left: 0;
-  width: 426px;
-  height: 426px;
-  overflow: hidden; /* Hide overflow */
-}
-
 .about__circle {
   width: 426px;
   height: 426px;
@@ -52,24 +46,17 @@
 
 .about__circle_animation_blurred {
   animation: pulsate 1.3s ease-in-out infinite;
-  position: absolute;
-  top: auto;
-  left: auto;
 }
 
 @keyframes pulsate {
   0% {
     opacity: 0;
-    transform: scale(1);
   }
   50% {
     opacity: 0.6;
-    transform: scale(
-      1.5
-    ); /* Change 1.5 to any value larger than 1 but no larger than 2 */
   }
   100% {
     opacity: 0;
-    transform: scale(1);
+    transform: scale(1.2);
   }
 }

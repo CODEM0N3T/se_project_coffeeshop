@@ -19,7 +19,7 @@
   line-height: 20px;
 }
 
-.form__input_date {
+.form__input_datetime-local_date {
   color: #000;
   text-indent: 5px;
 }
@@ -54,6 +54,7 @@
 
 .form__button {
   width: 100%;
+  color: #fff;
   padding: 0;
   border-radius: 4px;
   margin-top: 32px;

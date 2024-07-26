@@ -1,8 +1,8 @@
-/*Imported page styles, including google linked font family*/
-@import url(../blocks/page.css);
-
 /*Imported normalize styles*/
 @import url(../vendor/normalize.css);
+
+/*Imported page styles, including google linked font family*/
+@import url(../blocks/page.css);
 
 /*Imported Header style for introduction page*/
 @import url(../blocks/header.css);

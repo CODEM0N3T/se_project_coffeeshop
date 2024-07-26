@@ -21,7 +21,7 @@
   max-width: 729px;
   color: #000;
   padding: 0;
-  display: inline-block;
+  display: block;
   font-size: 60px;
   letter-spacing: -0.6px;
   font-style: normal;
@@ -31,7 +31,6 @@
   display: block;
   color: #2f80ed;
   font-style: italic;
-  display: block;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-weight: normal;
 }
