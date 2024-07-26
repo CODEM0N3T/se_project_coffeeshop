@@ -19,11 +19,6 @@
   line-height: 20px;
 }
 
-.form__input_datetime-local_date {
-  color: #000;
-  text-indent: 5px;
-}
-
 .form__label_type_checkbox {
   display: flex;
   justify-content: center;
