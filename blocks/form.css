@@ -43,6 +43,10 @@
   border-color: #838383;
 }
 
+.form__input:last-child {
+  margin-bottom: 0;
+}
+
 .form__input::placeholder {
   text-indent: 10px;
 }

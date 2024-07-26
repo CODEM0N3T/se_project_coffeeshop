@@ -11,6 +11,7 @@
   background-repeat: no-repeat;
   background-position: right;
   box-sizing: border-box;
+  z-index: 2;
 }
 
 .header__title {
@@ -25,6 +26,7 @@
   font-size: 60px;
   letter-spacing: -0.6px;
   font-style: normal;
+  z-index: 1;
 }
 
 .header__span-accent {
@@ -45,7 +47,6 @@
 }
 
 .header__image {
-  z-index: 1;
   position: absolute;
   max-width: 646px;
   height: 568px;
