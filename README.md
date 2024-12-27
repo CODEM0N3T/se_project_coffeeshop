@@ -22,4 +22,4 @@ This is the second project I completed during the Software Engineering program a
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Add your ideas here  :)
