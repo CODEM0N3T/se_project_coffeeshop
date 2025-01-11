@@ -21,5 +21,4 @@ This is the second project I completed during the Software Engineering program a
  https://codem0n3t.github.io/se_project_coffeeshop/
 
 ## Plan on improving the project
-
 Add your ideas here :)
