@@ -2,7 +2,6 @@
 
 This is the second project I completed during the Software Engineering program at **TripleTen**. The goal was to create a website for a library-based coffee shop using **HTML** and **CSS**, implementing the design brief provided.  
 
-
 ## 🌟 Project Features  
 - **Semantic HTML5:** Built with accessibility and SEO in mind.  
 - **Responsive Design:** Achieved using Flexbox and CSS positioning for a seamless user experience across devices.  
